@@ -8,6 +8,7 @@ enableEmoji = true
   author = "Olivier Roques"
   description = "A simple monospaced resume theme for Hugo."
   favicon = "favicon.ico"
+# colour = "purple"
 # googleFont = "Source Code Pro"
   [params.footer]
     text = "By Olivier Roques"

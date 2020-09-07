@@ -4,15 +4,20 @@ $margin-y: 16px;
 $avatar-size: 90px;
 
 // Colors
-$green: #28a745;
-$red: #dc3545;
+$primaryalt: #28a745;
+$primary: #dc3545;
+
+body.purple {
+    $primaryalt: #1F2F8A !global;
+    $primary: #8A4FFF !global;
+}
 
 // Placeholders
 %link-default {
-    color: $red;
+    color: $primary;
     text-decoration: none;
     &:hover {
-        color: $red;
+        color: $primary;
         text-decoration: underline;
     }
 }

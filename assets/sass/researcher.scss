@@ -13,6 +13,9 @@
 .nav-link {
     @extend %link-default;
 }
+hr {
+    margin-top: 0;
+}
 #content {
     a {
         @extend %link-default;
@@ -27,7 +30,7 @@
         }
     }
     code {
-        color: $green;
+        color: $primaryalt;
     }
     h1, h2, h3, h4, h5, h6 {
         font-size: medium;

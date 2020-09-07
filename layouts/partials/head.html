@@ -13,7 +13,20 @@
 
     <style>
         * {
-            font-family: {{ $font }}, monospace;
+            font-family: "{{ $font }}", monospace;
+        }
+
+        html, body {
+            background-color: #EFFFFA;
+        }
+
+        body>.container-wrapper {
+            background-color: #E5ECF4;
+        }
+
+        a.navbar-brand,
+        h2 {
+            color: #8A4FFF;
         }
     </style>
     {{ $style := resources.Get "sass/researcher.scss" | toCSS | minify }}
